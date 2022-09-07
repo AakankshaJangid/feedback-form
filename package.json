@@ -2,7 +2,7 @@
   "name": "feedback-form",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://aakankshaJangid.github.io/feedback-form",
+  "homepage": "https://github.com/AakankshaJangid/feedback-form.git",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",

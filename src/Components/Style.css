@@ -1,0 +1,105 @@
+body{
+    background: #A66CFF;
+    margin: 0%;
+    padding: 0%;
+}
+.heading{
+    color: #5a5959;
+    font-size: 4rem;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+.blurLine{
+    border-bottom: 0.3rem solid #c9a7fb;
+}
+.App{
+    background: white;
+    margin: 5% 20%;
+    width: 60%;
+}
+.formGrp1{
+    display: flex;
+    text-align: left;
+    padding: 0rem 3rem;
+    gap: 10%;
+}
+.formGrp1 div{
+    width: 50%;
+}
+.formGrp1 input{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #c9a7fb;
+    margin-bottom: 1rem;   
+    font-size: 1.5rem;
+ 
+}
+
+.completeForm{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    font-size: 1.5rem;
+    color: rgb(95, 93, 93);
+}
+
+.formGrp2 input{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #c9a7fb;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.formGrp2{
+    text-align: left;
+    padding: 0rem 3rem;
+}
+
+.Gender{
+    margin-bottom: 1rem;
+}
+.Gender input{
+    width: 2%;
+    margin: 0%;
+}
+.Gender label{
+    margin-right: 20%;
+}
+.formGrp2 textarea{
+    width: 100%;
+    border: 2px solid #c9a7fb;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+
+}
+.completeForm button{
+    align-items: center;
+}
+.btnBox{
+    width: 100%;
+}
+.btn{
+    width: 20%;
+    font-size: 1.5rem;
+    background: #A66CFF;
+    color: white;
+    border: none;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+.btn:hover{
+    background: rgb(223, 222, 222);
+    color: #A66CFF;
+}
+.formGrp1 input:focus{
+    outline: none;
+}
+.formGrp2 input:focus{
+    outline: none;
+}
+.formGrp2 textarea:focus{
+    outline: none;
+}
